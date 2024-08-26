@@ -18,7 +18,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 const uri = process.env.MONGODB_URI; // Using environment variable with a fallback
-
+console.log(uri);
 mongoose
   .connect(uri, {
     useNewUrlParser: true,
