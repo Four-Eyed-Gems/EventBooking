@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Swagger generated files
+swagger.json
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# MacOS specific
+*.DS_Store
+
+# npm package-lock file (optional, if you don't want to commit this)
+package-lock.json
